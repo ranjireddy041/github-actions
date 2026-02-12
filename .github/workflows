@@ -1,0 +1,11 @@
+name: first github action
+
+on: 
+  push
+jobs:
+  batch12-first-job
+    runs-on: ubuntu-latest
+
+    steps:
+      -name: message
+       run: echo " welcome to the github actions "
