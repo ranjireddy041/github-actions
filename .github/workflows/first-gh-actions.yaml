@@ -1,9 +1,7 @@
 name: first github action
 
 on: 
-  push:
-    branches:
-      -main
+  push
 jobs:
  practice:
     runs-on: ubuntu-latest
